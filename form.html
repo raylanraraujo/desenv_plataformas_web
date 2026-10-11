@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form label{
+            font-family: verdana, sans-serif;
+            color: brown;
+            font-weight: bold;
+        }
+    
+    </style>
+</head>
+<body>
+    <form action="#" method="get">
+        <label for="nome">Nome:</label> <!-- Define o rótulo do campo de entrada de texto do formulário-->
+        <br> <!-- Tag de quebra de linha -->
+        <input type="text" id="nome" name="nome" required> <!-- Define o campo de entrada de texto do formulário que fazem referência ao label "Nome" -->
+        <br>
+        <label for="cpf">CPF:</label>
+        <br>
+        <input type="text" id="cpf" name="cpf" required> <!-- Define o campo de entrada de texto do formulário que fazem referência ao label "CPF" -->
+        <br>
+        <label for="escolaridade">Nível de escolaridade:</label>
+        <select id="escolaridade" name="escolaridade" required> <!-- Define o campo de seleção do formulário que fazem referência ao label "Nível de escolaridade" -->
+            <option value="">Selecione</option> <!-- Define a opção padrão do campo de seleção -->
+            <option value="EF">Ensino Fundamental</option> <!-- Define a opção "Fundamental" do campo de seleção. O value "EF" define o valor que será enviado quando o formulário for submetido -->
+            <option value="EM">Ensino Médio</option> <!-- Define a opção "Médio" do campo de seleção -->
+            <option value="ES">Ensino Superior</option> <!-- Define a opção "Superior" do campo de seleção -->
+            <option value="PG">Pós-Graduação</option> <!-- Define a opção "Pós-Graduação" do campo de seleção -->
+        </select>
+        <br>
+        <input type="submit" value="Cadastrar" name="cadastrar"> <!-- Define o botão de envio do formulário -->
+    </form>
+    <!-- 
+        Fomulario possui alguns atributos obrigatorios como:
+        action que define o destino do formulario após os dados serem preenchidos
+        method que pode ser GET ou POST ambos definem o metodo de envio dos dados do formulario.
+            o método GET envia os dados via URL
+            o método POST envia os dados no corpo da requisição na forma encapsulada
+     -->
+    
+     
+</body>
+</html>
