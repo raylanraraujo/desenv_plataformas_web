@@ -66,3 +66,20 @@ a{
     padding: var(--gap);
     color: var(--cor-cinza);
 }
+
+.grid1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--gap);
+    max-width: 100%;
+    height: auto;
+}
+
+.h1-intro{
+    font-size: 48px;
+}
+
+.intro-img img{
+    max-width: 100%;
+    height: auto;
+}
