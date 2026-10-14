@@ -1,5 +1,12 @@
+:root{
+    --cor-cinza: #E4E4F2;
+    --cor-azulescuro: #414059;
+    --gap: 30px;
+}
+
 body { 
     font-family: 'Nunito', sans-serif;
+    color: var(--cor-azulescuro);
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -14,9 +21,11 @@ h1{
     background-image: url('../img/background-primary.svg');
     background-size: cover;
     background-position: center center;
+    color: var(--cor-cinza);
 }
 
 .content{
     max-width: 1200px;
     margin: 0 auto;
+    padding: var(--gap);
 }
