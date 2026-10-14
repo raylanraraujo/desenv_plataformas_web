@@ -29,3 +29,29 @@ h1{
     margin: 0 auto;
     padding: var(--gap);
 }
+
+.menu{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--cor-azulescuro);
+    background-color: white;
+}
+
+.menu ul{
+    list-style: none;
+    display: flex;
+}
+
+.menu h1{
+    font-size: 20px;
+}
+
+.menu ul li a{
+    display: block;
+    padding: 10px;
+}
