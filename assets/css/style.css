@@ -67,7 +67,7 @@ a{
     color: var(--cor-cinza);
 }
 
-.grid1 {
+.grid1{
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: var(--gap);
@@ -80,6 +80,18 @@ a{
 }
 
 .intro-img img{
+    max-width: 100%;
+    height: auto;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.grid2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: var(--gap);
     max-width: 100%;
     height: auto;
 }
