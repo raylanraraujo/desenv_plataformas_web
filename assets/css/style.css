@@ -95,3 +95,26 @@ html{
     max-width: 100%;
     height: auto;
 }
+
+.table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table td, table th{
+    border: 1px solid gray;
+    padding: 10px;
+    text-align: left;
+}
+
+table th{
+    background-color: gray;
+}
+
+.container{
+    padding: 3% 4%; text-align: center;
+}
+
+.copyright{
+    color: rgba(255, 255, 255, 0.7);
+}
